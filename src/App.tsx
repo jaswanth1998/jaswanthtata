@@ -14,6 +14,7 @@ import ProjectDetails from './components/ProjectDetails';
 import PromptEngineering from './components/PromptEngineering';
 
 import ScrollToTop from "./Helpers/ScrollToTop";
+import ChatWidget from "./components/ChatWidget";
 
 
 function HomePage() {
@@ -47,6 +48,7 @@ function HomePage() {
 function App() {
   return (
     <Router>
+      <ChatWidget />
       <ScrollToTop />
       <div className="min-h-screen bg-white">
         <Navbar />

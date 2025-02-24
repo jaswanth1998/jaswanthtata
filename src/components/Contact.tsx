@@ -45,6 +45,14 @@ const Contact = () => {
 
       if (response.ok) {
         alert('Email sent successfully!');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          company: '',
+          message: ''
+        });
+
       } else {
         alert('Failed to send email.');
       }
@@ -69,7 +77,9 @@ const Contact = () => {
       {/* Contact Information */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-         
+        <h1 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">
+          Contact Me
+        </h1>
           {/* Contact Form */}
           <div className="max-w-3xl mx-auto">
             <motion.form
