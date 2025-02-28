@@ -152,3 +152,16 @@
     background-color: #005dc1;
   }
   
+
+  /* Existing styles ... */
+
+/* Error Message Styling */
+.error-message {
+    background-color: #ffe6e6;
+    color: #d8000c;
+    border: 1px solid #d8000c;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 5px 0;
+  }
+  

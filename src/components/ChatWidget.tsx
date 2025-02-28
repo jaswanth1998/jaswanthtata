@@ -13,18 +13,19 @@ import React, {
   interface Message {
     sender: 'user' | 'bot';
     text: string;
+    type?: 'normal' | 'error';
   }
   
   const ChatWidget: React.FC = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
     const [messages, setMessages] = useState<Message[]>([
-      { sender: 'bot', text: "Ask anything about Jaswanth's professional experience." },
+      { sender: 'bot', text: "Ask anything about Jaswanth's professional experience.", type: 'normal' },
     ]);
     const [inputText, setInputText] = useState<string>('');
     const [isGenerating, setIsGenerating] = useState<boolean>(false);
     const [typingMessage, setTypingMessage] = useState<string>('');
   
-    // Refs to manage auto-scroll, typing interval, and abort controller
+    // Refs for managing auto-scroll, typing interval, and abort controller
     const chatBodyRef = useRef<HTMLDivElement>(null);
     const typingIntervalRef = useRef<number | null>(null);
     const abortControllerRef = useRef<AbortController | null>(null);
@@ -49,7 +50,7 @@ import React, {
       abortControllerRef.current = controller;
   
       try {
-        const response = await fetch('http://127.0.0.1:8080/chat', {
+        const response = await fetch('https://plaper-441203.uc.r.appspot.com/chat', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ message: userMessage }),
@@ -62,6 +63,15 @@ import React, {
           console.log('Request aborted by user.');
         } else {
           console.error('Error sending message:', error);
+          // Append an error message styled differently
+          setMessages((prev) => [
+            ...prev,
+            {
+              sender: 'bot',
+              text: "An error occurred while responding. Please try again.",
+              type: 'error',
+            },
+          ]);
         }
         setIsGenerating(false);
       }
@@ -85,7 +95,7 @@ import React, {
             clearInterval(typingIntervalRef.current);
           }
           setTypingMessage('');
-          setMessages((prev) => [...prev, { sender: 'bot', text: fullText }]);
+          setMessages((prev) => [...prev, { sender: 'bot', text: fullText, type: 'normal' }]);
           setIsGenerating(false);
         }
       }, 50); // Adjust typing speed as needed
@@ -101,7 +111,7 @@ import React, {
       }
       // Finalize whatever is typed so far as the bot's response
       if (typingMessage) {
-        setMessages((prev) => [...prev, { sender: 'bot', text: typingMessage }]);
+        setMessages((prev) => [...prev, { sender: 'bot', text: typingMessage, type: 'normal' }]);
         setTypingMessage('');
       }
       setIsGenerating(false);
@@ -152,7 +162,11 @@ import React, {
               {messages.map((msg, index) => (
                 <div
                   key={index}
-                  className={msg.sender === 'user' ? 'user-message' : 'bot-message'}
+                  className={
+                    msg.sender === 'user'
+                      ? 'user-message'
+                      : `bot-message ${msg.type === 'error' ? 'error-message' : ''}`
+                  }
                 >
                   {msg.text}
                 </div>
