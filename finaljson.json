@@ -1,0 +1,308 @@
+{
+  "header": {
+    "fullName": "Jaswanth Tata",
+    "city": "Toronto",
+    "province": "ON",
+    "phone": "+1-437-533-4583",
+    "email": "jaswanthtata@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/jaswanthtata/",
+    "github": "https://github.com/jaswanth1998",
+    "title": "Full-Stack Developer — Cloud & Microservices",
+    "keywords": [
+      "Amazon Web Services (AWS)",
+      "Node.js",
+      "Spring Boot"
+    ]
+  },
+  "professionalSummary": "Full-stack developer (5+ yrs) delivering microservices and web apps with Java/Spring Boot and Node.js. Shipped features that cut API latency ~40% and accelerated releases ~20% via CI/CD and observability. Built and operated services on public cloud (Azure/GCP), containerized with Docker, and enforced quality gates (Cypress, JUnit, SonarQube). Ready to apply this to AWS workloads (API Gateway, Lambda, S3, RDS/DynamoDB) to support secure, scalable migrations and serverless delivery.",
+  "skillsCategories": [
+    {
+      "name": "Languages & Frameworks",
+      "skillsList": [
+        "Java",
+        "Spring Boot",
+        "Node.js",
+        "TypeScript",
+        "JavaScript",
+        "Angular",
+        "React",
+        "RxJS",
+        "HTML5/CSS3"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "skillsList": [
+        "Azure App Services",
+        "GCP Compute Engine",
+        "Docker",
+        "CI/CD (GitHub Actions, Azure DevOps)",
+        "SonarQube",
+        "Datadog",
+        "OAuth2/JWT",
+        "API Gateway Policies",
+        "OpenShift (exposure)",
+        "Cloud Foundry (exposure)",
+        "AWS (API Gateway, Lambda, S3, RDS/DynamoDB — foundational)"
+      ]
+    },
+    {
+      "name": "Databases",
+      "skillsList": [
+        "PostgreSQL",
+        "MySQL",
+        "NoSQL (Firestore)"
+      ]
+    },
+    {
+      "name": "Testing & Quality",
+      "skillsList": [
+        "JUnit",
+        "Mockito",
+        "Cypress",
+        "Black Duck (OSS scanning)"
+      ]
+    },
+    {
+      "name": "Tools & IaC",
+      "skillsList": [
+        "Git",
+        "GitHub",
+        "Azure DevOps",
+        "JBoss",
+        "ARM Templates (IaC)"
+      ]
+    }
+  ],
+  "workExperience": [
+    {
+      "role": "Lead Engineer",
+      "company": "Tata Consultancy Services",
+      "location": "Hyderabad, India (On-site)",
+      "dates": {
+        "start": "March 2021",
+        "end": "April 2023"
+      },
+      "tech_stack": {
+        "stack": [
+          "React",
+          "TypeScript",
+          "Java",
+          "Spring Boot",
+          "Microservices",
+          "Docker",
+          "GCP Compute Engine",
+          "Firebase (Firestore, Cloud Functions)",
+          "Cypress",
+          "JUnit",
+          "Mockito",
+          "SonarQube",
+          "CI/CD",
+          "SQL",
+          "NoSQL"
+        ]
+      },
+      "bullets": [
+        "Spearheaded a revenue-driving Promotional Tab feature (React + Java microservices), aligned to modular, scalable architecture.",
+        "Reduced avg API latency ~40% via event-driven patterns and caching; improved page responsiveness and user engagement.",
+        "Containerized services with Docker and deployed on GCP Compute Engine; integrated Firestore + Cloud Functions for real-time sync.",
+        "Established quality gates (Cypress E2E, JUnit/Mockito, SonarQube) and streamlined CI/CD, speeding releases ~20%.",
+        "Enhanced logging/monitoring (GCP Logging, Firebase Monitoring) to cut debugging time ~30% and server load ~35%."
+      ]
+    },
+    {
+      "role": "Full Stack Developer (Hi-Tech)",
+      "company": "Tata Consultancy Services",
+      "location": "Hyderabad, India (On-site)",
+      "dates": {
+        "start": "July 2019",
+        "end": "March 2021"
+      },
+      "tech_stack": {
+        "stack": [
+          "Java",
+          "Spring Boot",
+          "Node.js",
+          "Angular/React",
+          "JBoss",
+          "REST APIs",
+          "Azure App Services",
+          "ARM Templates",
+          "Azure DevOps (CI/CD)",
+          "OAuth2/JWT",
+          "Datadog"
+        ]
+      },
+      "bullets": [
+        "Built microservices with Spring Boot on JBoss and integrated Angular/React frontends to deliver responsive UIs.",
+        "Implemented CI/CD with Azure DevOps and Git workflows, improving release cadence by ~35% and reducing rollbacks.",
+        "Hardened services with OAuth2/JWT and API gateway policies; embedded Black Duck scans to mitigate OSS risks pre-release.",
+        "Instrumented services using Datadog (APM, logs, dashboards) enabling rapid RCA and ~20% uptime improvement."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal Portfolio",
+      "duration": "Ongoing",
+      "teamMembers": 1,
+      "tech_stack": {
+        "stack": [
+          "React",
+          "TypeScript"
+        ]
+      },
+      "bullets": [
+        "Built a personal site to showcase work and code samples."
+      ],
+      "link": "https://github.com/jaswanth1998/portfolio"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master in Internetworking",
+      "institution": "Dalhousie University",
+      "location": "Halifax, Nova Scotia, Canada",
+      "dates": {
+        "start": "May 2023",
+        "end": "Dec 2023"
+      },
+      "relevantCoursework": [
+        "Advanced Network Security",
+        "Cloud Computing",
+        "Network Design & Management",
+        "Wireless Networks",
+        "IoT",
+        "Network Programming"
+      ]
+    },
+    {
+      "degree": "B.Tech. — Computer Science & Engineering",
+      "institution": "Jawaharlal Nehru Technological University",
+      "location": "Andhra Pradesh, India",
+      "dates": {
+        "start": "Aug 2015",
+        "end": "May 2019"
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Node (Basic)",
+      "issuer": "HackerRank",
+      "issued": "Apr 2025",
+      "url": "https://www.hackerrank.com/certificates/24432f738694"
+    },
+    {
+      "name": "SQL (Basic)",
+      "issuer": "HackerRank",
+      "issued": "Apr 2025",
+      "url": "https://www.hackerrank.com/certificates/iframe/0b9ccb51c84d"
+    },
+    {
+      "name": "SQL (Advanced)",
+      "issuer": "HackerRank",
+      "issued": "Apr 2025",
+      "url": "https://www.hackerrank.com/certificates/iframe/c27321a2b79c"
+    },
+    {
+      "name": "Java",
+      "issuer": "HackerRank",
+      "issued": "Apr 2025",
+      "url": "https://www.hackerrank.com/certificates/iframe/a801dead3998"
+    },
+    {
+      "name": "Python",
+      "issuer": "HackerRank",
+      "issued": "Apr 2025",
+      "url": "https://www.hackerrank.com/certificates/iframe/5b0e21cc6434"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Fluent"
+    },
+    {
+      "name": "Telugu",
+      "level": "Native"
+    }
+  ],
+  "volunteering": [
+    {
+      "role": "Volunteer — Food Bank Event",
+      "organization": "Dalhousie Student Union",
+      "dates": {
+        "start": "Apr 2025",
+        "end": "Apr 2025"
+      },
+      "bullets": [
+        "Supported operations for ~18.5 hours."
+      ]
+    }
+  ],
+  "targetKeywords": {
+    "A": [
+      "Amazon Web Services (AWS)",
+      "Node.js",
+      "Spring Boot",
+      "Microservices",
+      "API Gateway",
+      "Lambda",
+      "DynamoDB",
+      "Aurora",
+      "CI/CD",
+      "Agile"
+    ],
+    "B": [
+      "RDS",
+      "S3",
+      "AWS CDK",
+      "Java",
+      "JavaScript/TypeScript",
+      "API Development",
+      "Serverless"
+    ],
+    "C": [
+      "OpenShift",
+      "Cloud Foundry",
+      "Bamboo",
+      "Ansible",
+      "GraphQL",
+      "JUnit Automation",
+      "On-prem to Cloud Migration"
+    ]
+  },
+  "awards": [
+    {
+      "name": "Star of the Quarter — Microservices Delivery",
+      "issuer": "Tata Consultancy Services",
+      "date": "2022-03",
+      "location": "Hyderabad, India",
+      "highlights": [
+        "Led Java/Spring Boot + Node.js services rollout on a high-traffic product",
+        "Improved API latency by ~40% via caching and event-driven patterns"
+      ]
+    },
+    {
+      "name": "Innovation Spotlight — Serverless Cost Optimizer",
+      "issuer": "Tata Consultancy Services (Hi-Tech Account)",
+      "date": "2022-11",
+      "location": "Hyderabad, India",
+      "highlights": [
+        "Prototyped Lambda + S3 + API Gateway workflow to trim batch costs",
+        "Cut monthly runtime by ~25% in pilot using asynchronous invocations"
+      ]
+    }
+  ],
+  "coverLetter": {
+    "greeting": "Dear Hiring Manager,",
+    "body": [
+      "I am excited to apply for the Full-Stack Developer position at [Company Name], as advertised. With over five years of experience in developing and deploying scalable web applications and microservices, I am confident in my ability to contribute effectively to your team.",
+      "In my previous role at Tata Consultancy Services, I led the development of a revenue-driving Promotional Tab feature using React and Java microservices. This project not only enhanced user engagement but also reduced API latency by approximately 40% through the implementation of event-driven patterns and caching strategies. My hands-on experience with cloud platforms such as Azure and GCP, along with containerization using Docker, has equipped me with the skills necessary to build and operate robust services in dynamic environments.",
+      "I am particularly drawn to this opportunity at [Company Name] because of your commitment to innovation and excellence in technology. I am eager to bring my expertise in Java, Spring Boot, Node.js, and cloud services to your team, and I am excited about the prospect of contributing to projects that drive business success.",
+      "Thank you for considering my application. I look forward to the opportunity to discuss how my background, skills, and certifications align with the needs of your team. Please feel free to contact me at +1-437-533-4583 or via email"
+    ],
+    "closing": "Sincerely, Jaswanth Tata"
+  }
+}
